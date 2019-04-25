@@ -8,7 +8,7 @@ These datasets can be viewed as classification or regression tasks. The classes 
 Our goal in the project is to perform a data analysis on the dataset and figure out the features for the model that predicts the wine quality index(score from 0-9).
 You can use either regression or classification for the model prediction.
 
-Prerequisites:
+Prerequisites -
 We would highly recommend that before the hack night you have some kind of toolchain and development environment already installed and ready. If you have no idea where to start with this, try a combination like:
 Python
 scikit-learn / sklearn
@@ -18,7 +18,7 @@ matplotlib
 An environment to work in - something like Jupyter or Spyder
 For Linux people, your package manager should be able to handle all of this. If it somehow can't, see if you can at least install Python and pip and then use pip to install the above packages.
 
-Objectives in this project:
+Objectives in this project: -
 Perform data cleaning on the dataset
 Make a EDA report 
 Visualize the distributions of various features and correlations between them
@@ -32,7 +32,7 @@ https://drive.google.com/file/d/1pW85WoyJnWyLo8FlNEL4UDtkvoaxFI1Z/view?usp=shari
 Dataset description:
 The dataset contains 6498 rows and 14 columns
 
-Input variables (based on physicochemical tests): 
+Input variables (based on physicochemical tests) -
 1 - fixed acidity 
 2 - volatile acidity 
 3 - citric acid 
@@ -45,12 +45,12 @@ Input variables (based on physicochemical tests):
 10 - sulphates 
 11 - alcohol 
 
-Output variable (based on sensory data): 
+Output variable (based on sensory data) - 
 12 - quality (score between 0 and 10)
 13- good(1/0)
 14 - Color(red/white)
 
-WorkFlow:
+WorkFlow -
 The workflow for the project is described in  steps given below:
 Perform data cleaning using pandas library. Which includes replacing dropping useless information and filling missing values
 Make a Exploratory Data Analysis on the data using pandas.
